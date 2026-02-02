@@ -8,10 +8,19 @@
 
 本项目是在 [RuoYi-Vue3](https://github.com/yangzongzhuan/RuoYi-Vue3) 基础上进行的深度优化和功能扩展版本，保留了原有的所有功能，并新增了大量实用的组件和工具，致力于提供更好的开发体验和更强大的功能支持。
 
-| 公众号                                       | 微信群                                                         |
+| 公众号                                       | 联系我（注明来意）                                                         |
 | -------------------------------------------- | -------------------------------------------------------------- |
-| ![公众号](https://cdn.undsky.com/img/gh.jpg) | ![微信群](https://cdn.undsky.com/img/doudouqun.png?v=20250117) |
+| ![公众号](https://cdn.undsky.com/img/gh.jpg) | ![微信群](https://cdn.undsky.com/img/wx.jpg) |
 
+
+## 演示项目
+
+
+- 🖥️ Element Plus 版本：http://ry.undsky.com/admin/login?redirect=/index
+- 🎨 Vue3 Prettier 版本：http://ry2.undsky.com/login?redirect=/index
+- 🐻 BearJia Vue3 版本：http://ry1.undsky.com/login3
+
+  
 ## 📑 目录
 
 -   [项目简介](#项目简介)
