@@ -52,7 +52,7 @@ export function resetForm(refName) {
 }
 
 // 添加日期范围
-export function addDateRange(params, dateRange, propName) {
+export function addDateRange(params, dateRange, propName, addTime) {
   let search = params
   search.params = typeof (search.params) === 'object' && search.params !== null && !Array.isArray(search.params) ? search.params : {}
   dateRange = Array.isArray(dateRange) ? dateRange : []
@@ -61,13 +61,15 @@ export function addDateRange(params, dateRange, propName) {
   let beginDate = dateRange[0]
   let endDate = dateRange[1]
   
-  // 判断是否为年月日格式 (YYYY-MM-DD)，如果是则拼接时间
-  const dateOnlyPattern = /^\d{4}-\d{2}-\d{2}$/
-  if (beginDate && dateOnlyPattern.test(beginDate)) {
-    beginDate = beginDate + ' 00:00:00'
-  }
-  if (endDate && dateOnlyPattern.test(endDate)) {
-    endDate = endDate + ' 23:59:59'
+  if(true === addTime) {
+    // 判断是否为年月日格式 (YYYY-MM-DD)，如果是则拼接时间
+    const dateOnlyPattern = /^\d{4}-\d{2}-\d{2}$/
+    if (beginDate && dateOnlyPattern.test(beginDate)) {
+      beginDate = beginDate + ' 00:00:00'
+    }
+    if (endDate && dateOnlyPattern.test(endDate)) {
+      endDate = endDate + ' 23:59:59'
+    }
   }
   
   if (typeof (propName) === 'undefined') {
