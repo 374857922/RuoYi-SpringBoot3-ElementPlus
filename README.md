@@ -6,49 +6,46 @@
 
 ## 📝 项目简介
 
-本项目是在 [RuoYi-Vue3](https://github.com/yangzongzhuan/RuoYi-Vue3) 基础上进行的深度优化和功能扩展版本，保留了原有的所有功能，并新增了大量实用的组件和工具，致力于提供更好的开发体验和更强大的功能支持。
+本项目是在 **RuoYi-Vue3** 基础上进行的深度优化和功能扩展版本，保留了原有的所有功能，并新增了大量实用的组件和工具，致力于提供更好的开发体验和更强大的功能支持。
 
-| 公众号                                       | 联系我（注明来意）                                                         |
-| -------------------------------------------- | -------------------------------------------------------------- |
-| ![公众号](https://cdn.undsky.com/img/gh.jpg) | ![微信群](https://cdn.undsky.com/img/wx.jpg) |
-
+| 公众号                                       | 微信交流群                                                      |
+| -------------------------------------------- | --------------------------------------------------------------- |
+| ![公众号](https://cdn.undsky.com/img/gh.jpg) | ![微信交流群](https://cdn.undsky.com/img/doudouqun.jpg?v=2.0.1) |
 
 ## 演示项目
-
 
 - 🖥️ Element Plus 版本：http://ry.undsky.com/admin/login?redirect=/index
 - 🎨 Vue3 Prettier 版本：http://ry2.undsky.com/login?redirect=/index
 - 🐻 BearJia Vue3 版本：http://ry1.undsky.com/login3
 
-  
 ## 📑 目录
 
--   [项目简介](#项目简介)
--   [后端项目](#后端项目)
--   [核心新特性](#核心新特性)
--   [功能对比](#功能对比)
--   [快速开始](#快速开始)
--   [项目结构](#项目结构)
--   [配置说明](#配置说明)
--   [内置功能](#内置功能)
--   [贡献指南](#贡献指南)
--   [许可证](#许可证)
--   [致谢](#致谢)
--   [联系方式](#联系方式)
+- [项目简介](#项目简介)
+- [后端项目](#后端项目)
+- [核心新特性](#核心新特性)
+- [功能对比](#功能对比)
+- [快速开始](#快速开始)
+- [项目结构](#项目结构)
+- [配置说明](#配置说明)
+- [内置功能](#内置功能)
+- [贡献指南](#贡献指南)
+- [许可证](#许可证)
+- [致谢](#致谢)
+- [联系方式](#联系方式)
 
 ## 后端项目
 
--   💻 https://github.com/undsky/RuoYi-SpringBoot3-Pro
+- 💻 https://github.com/undsky/RuoYi-SpringBoot3-Pro
 
 ### 技术栈
 
--   **前端框架**: Vue 3.5.16 + Vite 6.3.5
--   **UI 组件库**: Element Plus 2.9.11 + Vant 4.9.17
--   **状态管理**: Pinia 3.0.2
--   **路由管理**: Vue Router 4.5.1
--   **工具库**: xe-utils、dayjs、mitt、VueUse
--   **富文本编辑器**: Vue Quill + UEditor
--   **其他**: ECharts、axios、sortablejs、pdf-vue3
+- **前端框架**: Vue 3.5.16 + Vite 6.3.5
+- **UI 组件库**: Element Plus 2.9.11 + Vant 4.9.17
+- **状态管理**: Pinia 3.0.2
+- **路由管理**: Vue Router 4.5.1
+- **工具库**: xe-utils、dayjs、mitt、VueUse
+- **富文本编辑器**: Vue Quill + UEditor
+- **其他**: ECharts、axios、sortablejs、pdf-vue3
 
 ---
 
@@ -62,12 +59,12 @@
 
 **核心特性**：
 
--   ✅ 支持省-市-区三级联动，灵活的层级控制（1-3 级可选）
--   ✅ 按需懒加载数据，极大提升性能
--   ✅ 支持 v-model 双向绑定
--   ✅ 内置完整的错误处理机制
--   ✅ 响应式设计，支持多种尺寸和样式
--   ✅ 全局注册，开箱即用
+- ✅ 支持省-市-区三级联动，灵活的层级控制（1-3 级可选）
+- ✅ 按需懒加载数据，极大提升性能
+- ✅ 支持 v-model 双向绑定
+- ✅ 内置完整的错误处理机制
+- ✅ 响应式设计，支持多种尺寸和样式
+- ✅ 全局注册，开箱即用
 
 **使用示例**：
 
@@ -97,11 +94,11 @@ const region = ref([]);
 
 **核心特性**：
 
--   ✅ 自动千分位格式化显示（如：1,234,567.89）
--   ✅ 支持小数位数控制
--   ✅ 输入时自动解析，输出纯数字
--   ✅ 支持负数和小数
--   ✅ 完美集成 Element Plus 输入框
+- ✅ 自动千分位格式化显示（如：1,234,567.89）
+- ✅ 支持小数位数控制
+- ✅ 输入时自动解析，输出纯数字
+- ✅ 支持负数和小数
+- ✅ 完美集成 Element Plus 输入框
 
 **使用示例**：
 
@@ -122,11 +119,11 @@ const amount = ref('');
 
 **核心特性**：
 
--   ✅ 支持图片、视频、音频上传
--   ✅ 丰富的文本格式化选项
--   ✅ 表格、公式、代码编辑
--   ✅ 支持全屏编辑
--   ✅ 自定义工具栏配置
+- ✅ 支持图片、视频、音频上传
+- ✅ 丰富的文本格式化选项
+- ✅ 表格、公式、代码编辑
+- ✅ 支持全屏编辑
+- ✅ 自定义工具栏配置
 
 #### 📸 ImageUpload 图片上传增强
 
@@ -136,51 +133,51 @@ const amount = ref('');
 
 **1. 拖拽上传支持**
 
--   ✅ 支持拖拽文件上传，操作更便捷
--   ✅ 拖拽排序已上传的图片，调整显示顺序
--   ✅ 集成 sortablejs 实现流畅的拖拽体验
+- ✅ 支持拖拽文件上传，操作更便捷
+- ✅ 拖拽排序已上传的图片，调整显示顺序
+- ✅ 集成 sortablejs 实现流畅的拖拽体验
 
 **2. 视频支持**
 
--   ✅ 支持上传视频文件（mp4, webm, ogg）
--   ✅ 支持上传音频文件（mp3）
--   ✅ 视频预览自动播放，带播放控制器
--   ✅ 自动识别文件类型，图片和视频分别展示
+- ✅ 支持上传视频文件（mp4, webm, ogg）
+- ✅ 支持上传音频文件（mp3）
+- ✅ 视频预览自动播放，带播放控制器
+- ✅ 自动识别文件类型，图片和视频分别展示
 
 **3. 图片懒加载**
 
--   ✅ 使用 `loading="lazy"` 属性优化加载性能
--   ✅ 大量图片时显著提升页面性能
+- ✅ 使用 `loading="lazy"` 属性优化加载性能
+- ✅ 大量图片时显著提升页面性能
 
 **4. 高级预览功能**
 
--   ✅ 集成 `el-image-viewer` 组件
--   ✅ 支持图片放大、缩小、旋转
--   ✅ 支持键盘快捷键操作
--   ✅ 支持图片列表浏览，可切换查看
+- ✅ 集成 `el-image-viewer` 组件
+- ✅ 支持图片放大、缩小、旋转
+- ✅ 支持键盘快捷键操作
+- ✅ 支持图片列表浏览，可切换查看
 
 **5. 响应式设计**
 
--   ✅ 完美适配移动端
--   ✅ 移动端预览全屏显示
--   ✅ 自动识别设备类型调整界面
+- ✅ 完美适配移动端
+- ✅ 移动端预览全屏显示
+- ✅ 自动识别设备类型调整界面
 
 **6. 更强大的文件支持**
 
--   ✅ 文件大小限制从 5MB 提升到 50MB
--   ✅ 支持自定义 accept 属性
--   ✅ 支持更多文件格式
+- ✅ 文件大小限制从 5MB 提升到 50MB
+- ✅ 支持自定义 accept 属性
+- ✅ 支持更多文件格式
 
 **7. 数据格式增强**
 
--   ✅ 支持 JSON 格式数据
--   ✅ 支持 Array/String/Object 多种数据格式
--   ✅ 使用 xe-utils 进行数据处理
+- ✅ 支持 JSON 格式数据
+- ✅ 支持 Array/String/Object 多种数据格式
+- ✅ 使用 xe-utils 进行数据处理
 
 **8. 防重复删除机制**
 
--   ✅ 添加状态标记防止重复删除
--   ✅ 确保数据一致性
+- ✅ 添加状态标记防止重复删除
+- ✅ 确保数据一致性
 
 **对比原版改进**：
 
@@ -253,10 +250,10 @@ const form = ref({
 
 **技术实现**：
 
--   基于 Element Plus Upload 组件
--   使用 sortablejs 实现拖拽排序
--   使用 el-image-viewer 实现图片预览
--   使用 xe-utils 进行数据处理
+- 基于 Element Plus Upload 组件
+- 使用 sortablejs 实现拖拽排序
+- 使用 el-image-viewer 实现图片预览
+- 使用 xe-utils 进行数据处理
 
 ---
 
@@ -278,9 +275,9 @@ const form = ref({
 
 **特性**：
 
--   ✅ 自动格式化 Vue、JavaScript、CSS 等文件
--   ✅ 支持保存时自动格式化
--   ✅ 统一的缩进、引号、换行等规则
+- ✅ 自动格式化 Vue、JavaScript、CSS 等文件
+- ✅ 支持保存时自动格式化
+- ✅ 统一的缩进、引号、换行等规则
 
 **配置文件**: `prettier.config.cjs`
 
@@ -436,11 +433,11 @@ npm run build:prod
 
 **核心特性**：
 
--   ✅ **监控用户操作**：监听键盘、鼠标、滚动等用户交互行为
--   ✅ **智能计时器**：用户每次操作后自动重置计时器
--   ✅ **自动登出**：超时后自动退出登录，跳转至登录页面
--   ✅ **灵活配置**：通过环境变量自定义超时时长
--   ✅ **安全合规**：满足三级等保安全要求
+- ✅ **监控用户操作**：监听键盘、鼠标、滚动等用户交互行为
+- ✅ **智能计时器**：用户每次操作后自动重置计时器
+- ✅ **自动登出**：超时后自动退出登录，跳转至登录页面
+- ✅ **灵活配置**：通过环境变量自定义超时时长
+- ✅ **安全合规**：满足三级等保安全要求
 
 **实现原理**：
 
@@ -501,23 +498,23 @@ VITE_LOGOUT_LIMIT=1800000
 
 **使用场景**：
 
--   ✅ 政府、金融等对安全要求高的行业
--   ✅ 需要通过信息安全等级保护三级认证的系统
--   ✅ 公共场所使用的管理系统
--   ✅ 涉及敏感数据的后台管理系统
+- ✅ 政府、金融等对安全要求高的行业
+- ✅ 需要通过信息安全等级保护三级认证的系统
+- ✅ 公共场所使用的管理系统
+- ✅ 涉及敏感数据的后台管理系统
 
 **监控的用户操作类型**：
 
--   🖱️ **鼠标操作**：移动（mousemove）、点击（mousedown/click）
--   ⌨️ **键盘操作**：按键按下（keydown）
--   📜 **滚动操作**：页面滚动（scroll）
+- 🖱️ **鼠标操作**：移动（mousemove）、点击（mousedown/click）
+- ⌨️ **键盘操作**：按键按下（keydown）
+- 📜 **滚动操作**：页面滚动（scroll）
 
 **安全说明**：
 
--   🔐 超时后立即清除所有用户会话信息
--   🔐 自动跳转至登录页，需要重新输入密码
--   🔐 防止用户离开座位后被他人非法操作
--   🔐 符合《信息安全技术 网络安全等级保护基本要求》GB/T 22239-2019
+- 🔐 超时后立即清除所有用户会话信息
+- 🔐 自动跳转至登录页，需要重新输入密码
+- 🔐 防止用户离开座位后被他人非法操作
+- 🔐 符合《信息安全技术 网络安全等级保护基本要求》GB/T 22239-2019
 
 ---
 
@@ -529,9 +526,9 @@ VITE_LOGOUT_LIMIT=1800000
 
 特性：
 
--   ✅ 现代化设计风格
--   ✅ 响应式布局
--   ✅ 流畅的动画效果
+- ✅ 现代化设计风格
+- ✅ 响应式布局
+- ✅ 流畅的动画效果
 
 ---
 
@@ -563,8 +560,8 @@ VITE_LOGOUT_LIMIT=1800000
 
 ### 环境要求
 
--   Node.js >= 20
--   npm 或 yarn 或 pnpm
+- Node.js >= 20
+- npm 或 yarn 或 pnpm
 
 ### 安装依赖
 
@@ -782,6 +779,12 @@ VITE_LOGOUT_LIMIT=0
 
 ---
 
+## 请我喝杯咖啡
+
+如果项目对你有帮助，可以请我喝杯咖啡 ☕️
+
+<img src="https://cdn.undsky.com/img/weixin10.jpg" max-width="300" height="500" /> <img src="https://cdn.undsky.com/img/zhifubao10.jpg" max-width="300" height="500" />
+
 ## 🤝 贡献指南
 
 欢迎提交 Issue 和 Pull Request！
@@ -796,16 +799,16 @@ VITE_LOGOUT_LIMIT=0
 
 ## 🙏 致谢
 
--   感谢 [RuoYi-Vue3](https://github.com/yangzongzhuan/RuoYi-Vue3) 提供的优秀基础框架
--   感谢所有开源组件的作者和贡献者
+- 感谢 [RuoYi-Vue3](https://github.com/yangzongzhuan/RuoYi-Vue3) 提供的优秀基础框架
+- 感谢所有开源组件的作者和贡献者
 
 ---
 
 ## 📞 联系方式
 
--   网站：[https://www.undsky.com](https://www.undsky.com)
--   GitHub：[https://github.com/undsky/RuoYi-SpringBoot3-ElementPlus](https://github.com/undsky/RuoYi-SpringBoot3-ElementPlus)
--   Issues：[https://github.com/undsky/RuoYi-SpringBoot3-ElementPlus/issues](https://github.com/undsky/RuoYi-SpringBoot3-ElementPlus/issues)
+- 网站：[https://www.undsky.com](https://www.undsky.com)
+- GitHub：[https://github.com/undsky/RuoYi-SpringBoot3-ElementPlus](https://github.com/undsky/RuoYi-SpringBoot3-ElementPlus)
+- Issues：[https://github.com/undsky/RuoYi-SpringBoot3-ElementPlus/issues](https://github.com/undsky/RuoYi-SpringBoot3-ElementPlus/issues)
 
 ---
 
