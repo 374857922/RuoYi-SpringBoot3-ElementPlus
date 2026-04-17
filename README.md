@@ -4,20 +4,6 @@
 <h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">RuoYi-SpringBoot3-ElementPlus v3.9.1</h1>
 <h4 align="center">基于 RuoYi-Vue3 的增强优化版本</h4>
 
-## 📝 项目简介
-
-本项目是在 **RuoYi-Vue3** 基础上进行的深度优化和功能扩展版本，保留了原有的所有功能，并新增了大量实用的组件和工具，致力于提供更好的开发体验和更强大的功能支持。
-
-| 公众号                                       | 微信交流群                                                      |
-| -------------------------------------------- | --------------------------------------------------------------- |
-| ![公众号](https://cdn.undsky.com/img/gh.jpg) | ![微信交流群](https://cdn.undsky.com/img/doudouqun.jpg?v=2.0.1) |
-
-## 演示项目
-
-- 🖥️ Element Plus 版本：http://ry.undsky.com/admin/login?redirect=/index
-- 🎨 Vue3 Prettier 版本：http://ry2.undsky.com/login?redirect=/index
-- 🐻 BearJia Vue3 版本：http://ry1.undsky.com/login3
-
 ## 📑 目录
 
 - [项目简介](#-项目简介)
@@ -34,6 +20,21 @@
 - [许可证](#-许可证)
 - [致谢](#-致谢)
 - [联系方式](#-联系方式)
+- [友情链接](#友情链接)
+
+## 📝 项目简介
+
+本项目是在 **RuoYi-Vue3** 基础上进行的深度优化和功能扩展版本，保留了原有的所有功能，并新增了大量实用的组件和工具，致力于提供更好的开发体验和更强大的功能支持。
+
+| 公众号                                       | 微信交流群                                                      | QQ群                                          |
+| -------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------- |
+| ![公众号](https://cdn.undsky.com/img/gh.jpg) | ![微信交流群](https://cdn.undsky.com/img/doudouqun.jpg?v=2.3.0) | ![QQ群](https://cdn.undsky.com/img/qqqun.jpg) |
+
+## 演示项目
+
+- 🖥️ Element Plus 版本：http://ry.undsky.com/admin/login?redirect=/index
+- 🎨 Vue3 Prettier 版本：http://ry2.undsky.com/login?redirect=/index
+- 🐻 BearJia Vue3 版本：http://ry1.undsky.com/login3
 
 ## 后端项目
 
@@ -815,3 +816,7 @@ VITE_LOGOUT_LIMIT=0
 ---
 
 如果这个项目对你有帮助，请给个 Star ⭐ 支持一下！
+
+## 友情链接
+
+- [LINUX DO - 新的理想型社区](https://linux.do/)
